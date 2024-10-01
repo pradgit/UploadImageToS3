@@ -9,8 +9,8 @@
     </div>
     <div v-else>
       <img :src="image" />
-      <button v-if="!uploadURL" @click="removeImage">Remove image</button>
-      <button v-if="!uploadURL" @click="uploadImage">Upload image</button>
+      <button v-if="!uploadURL" @click="removeImage">Remove image here</button>
+      <button v-if="!uploadURL" @click="uploadImage">Upload image here</button>
     </div>
     <h2 v-if="uploadURL">Success! Image uploaded to bucket.</h2>
 </div>
